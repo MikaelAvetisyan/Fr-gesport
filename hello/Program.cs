@@ -22,22 +22,22 @@ begin = Console.ReadLine();
     if (AnswerCity == "C")
     {
         point += 1; //behövde lite hjälp här
-        Console.WriteLine($"Correct, you get 1 point, total points: {point}/5, press enter to continue");
+        Console.WriteLine($"Correct, you get 1 point, total points: {point}/6, press enter to continue");
     }
 
     else if (AnswerCity == "A")
     {
-        Console.WriteLine("Wrong answer, its C = Berlin, no points");
+        Console.WriteLine("Wrong answer, its C = Berlin, no points, press enter to continue");
     }
 
     else if (AnswerCity == "B")
     {
-        Console.WriteLine("Wrong answer, its C = Berlin, no points");
+        Console.WriteLine("Wrong answer, its C = Berlin, no points, press enter to continue");
     }
 
     else if (AnswerCity == "NONE")
     {
-        Console.WriteLine("Wrong answer, its C = Berlin, no points");
+        Console.WriteLine("Wrong answer, its C = Berlin, no points, press enter to continue");
     }
 
     else
@@ -47,12 +47,12 @@ begin = Console.ReadLine();
     Console.ReadLine();
 }
 
-Console.WriteLine("Question nr.2");
-Console.WriteLine("Which of the following is NOT a fruit?");
-Console.WriteLine("A, Rhubarb");
-Console.WriteLine("B, Tomatoes");
-Console.WriteLine("C, Avocados");
-Console.WriteLine("None of them");
+        Console.WriteLine("Question nr.2");
+            Console.WriteLine("Which of the following is NOT a fruit?");
+                Console.WriteLine("A, Rhubarb");
+                Console.WriteLine("B, Tomatoes");
+                Console.WriteLine("C, Avocados");
+                Console.WriteLine("None of them");
 
 string answerfruit;
 answerfruit = Console.ReadLine().Trim().ToUpper();
@@ -60,7 +60,7 @@ answerfruit = Console.ReadLine().Trim().ToUpper();
 if (answerfruit == "A")
 {
     point += 1;
-    Console.WriteLine($"Correct, you get 1 point, total points: {point}/5, press enter to continue");
+    Console.WriteLine($"Correct, you get 1 point, total points: {point}/6, press enter to continue");
 }
 
 else if (answerfruit == "B")
@@ -85,35 +85,35 @@ else
 }
     Console.ReadLine();
 
-Console.WriteLine("Question nr.3");
-Console.WriteLine("What number was the Apollo mission that successfully put a man on the moon for the first time in human history? ");
-Console.WriteLine("A, Apollo 11");
-Console.WriteLine("B, Apollo 12");
-Console.WriteLine("C, Apollo 13");
-Console.WriteLine("None of them");
+    Console.WriteLine("Question nr.3");
+        Console.WriteLine("What number was the Apollo mission that successfully put a man on the moon for the first time in human history? ");
+            Console.WriteLine("A, Apollo 12");
+            Console.WriteLine("B, Apollo 13");
+            Console.WriteLine("C, Apollo 14");
+            Console.WriteLine("None of them");
 
 string answerApollo;
 answerApollo = Console.ReadLine().Trim().ToUpper();
 
-    if (answerApollo == "A")
+    if (answerApollo == "NONE")
     {
         point += 1; 
-        Console.WriteLine($"Correct, you get 1 point, total points: {point}/5, press enter to continue");
+        Console.WriteLine($"Correct, you get 1 point, total points: {point}/6, press enter to continue");
     }
 
     else if (answerApollo == "B")
     {
-        Console.WriteLine("Wrong answer, its A = Apollo 11, no points, press enter to continue");
+        Console.WriteLine("Wrong answer, its none of them, no points, press enter to continue");
     }
 
     else if (answerApollo == "C")
     {
-        Console.WriteLine("Wrong answer, its A = Apollo 11, no points, press enter to continue");
+        Console.WriteLine("Wrong answer, its none of them, no points, press enter to continue");
     }
 
-    else if (answerApollo == "NONE")
+    else if (answerApollo == "A")
     {
-        Console.WriteLine("Wrong answer, its A = Apollo 11, no points, press enter to continue");
+        Console.WriteLine("Wrong answer, its none of them, no points, press enter to continue");
     }
 
     else
@@ -122,35 +122,35 @@ answerApollo = Console.ReadLine().Trim().ToUpper();
     }
     Console.ReadLine();
 
-Console.WriteLine("Question nr.4");
+Console.WriteLine("Question nr.4, dubble points");
 Console.WriteLine("Which of the following languages has the longest alphabet? Which of the following languages has the longest alphabet?");
 Console.WriteLine("A, Greek");
 Console.WriteLine("B, Arabic");
-Console.WriteLine("C, Swedish");
+Console.WriteLine("C, Russian");
 Console.WriteLine("None of them");
 
 string answerLang;
 answerLang = Console.ReadLine().Trim().ToUpper();
 
-if (answerLang == "NONE")
+if (answerLang == "C")
 {
-    point += 1;
-    Console.WriteLine($"Correct, you get 1 point, total points: {point}/5, press enter to continue");
+    point += 2;
+    Console.WriteLine($"Correct, you get 2 point, total points: {point}/6, press enter to continue");
 }
 
 else if (answerLang == "B")
 {
-    Console.WriteLine("Wrong answer, its None of them, no points, press enter to continue");
+    Console.WriteLine("Wrong answer, Its C = Russian, no points, press enter to continue");
 }
 
-else if (answerLang == "C")
+else if (answerLang == "NONE")
 {
-    Console.WriteLine("Wrong answer, its None of them, no points, press enter to continue");
+    Console.WriteLine("Wrong answer, Its C = Russian, no points, press enter to continue");
 }
 
 else if (answerLang == "A")
 {
-    Console.WriteLine("Wrong answer, its None of them, no points, press enter to continue");
+    Console.WriteLine("Wrong answer, Its C = Russian, no points, press enter to continue");
 }
 
 else
@@ -196,15 +196,5 @@ else
     }
 Console.ReadLine();
 
-Console.WriteLine($"You did it, you did all the questions, so here are your scores: {point}/5");
+Console.WriteLine($"You did it, you did all the questions, so here are your scores: {point}/6");
 Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
