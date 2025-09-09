@@ -12,3 +12,4 @@ C:\Users\mikael.avetisyan\Downloads\programering\Frågesport\hello\obj\Debug\net
 C:\Users\mikael.avetisyan\Downloads\programering\Frågesport\hello\obj\Debug\net9.0\hello.pdb
 C:\Users\mikael.avetisyan\Downloads\programering\Frågesport\hello\obj\Debug\net9.0\hello.genruntimeconfig.cache
 C:\Users\mikael.avetisyan\Downloads\programering\Frågesport\hello\obj\Debug\net9.0\ref\hello.dll
+C:\Users\mikael.avetisyan\Downloads\programering\Frågesport\hello\obj\Debug\net9.0\hello.sourcelink.json

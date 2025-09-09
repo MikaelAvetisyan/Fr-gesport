@@ -39,6 +39,11 @@ begin = Console.ReadLine();
     {
         Console.WriteLine("Wrong answer, its C = Berlin, no points");
     }
+
+    else
+    {
+        Console.WriteLine("That is not an option so its wrong, press enter to continue");
+    }
     Console.ReadLine();
 }
 
@@ -53,25 +58,31 @@ string answerfruit;
 answerfruit = Console.ReadLine().Trim().ToUpper();
 
 if (answerfruit == "A")
-    {
-        point += 1; 
-        Console.WriteLine($"Correct, you get 1 point, total points: {point}/5, press enter to continue");
-    }
+{
+    point += 1;
+    Console.WriteLine($"Correct, you get 1 point, total points: {point}/5, press enter to continue");
+}
 
-    else if (answerfruit == "B")
-    {
-        Console.WriteLine("Wrong answer, its A = Rhubarb, no points, press enter to continue");
-    }
+else if (answerfruit == "B")
+{
+    Console.WriteLine("Wrong answer, its A = Rhubarb, no points, press enter to continue");
+}
 
-    else if (answerfruit == "C")
-    {
-        Console.WriteLine("Wrong answer, its A = Rhubarb, no points, press enter to continue");
-    }
+else if (answerfruit == "C")
+{
+    Console.WriteLine("Wrong answer, its A = Rhubarb, no points, press enter to continue");
+}
 
-    else if (answerfruit == "NONE")
-    {
-        Console.WriteLine("Wrong answer, its A = Rhubarb, no points, press enter to continue");
-    }
+else if (answerfruit == "NONE")
+{
+    Console.WriteLine("Wrong answer, its A = Rhubarb, no points, press enter to continue");
+
+}
+
+else
+{
+    Console.WriteLine("That is not an option so its wrong, press enter to continue");
+}
     Console.ReadLine();
 
 Console.WriteLine("Question nr.3");
@@ -103,6 +114,11 @@ answerApollo = Console.ReadLine().Trim().ToUpper();
     else if (answerApollo == "NONE")
     {
         Console.WriteLine("Wrong answer, its A = Apollo 11, no points, press enter to continue");
+    }
+
+    else
+    {
+        Console.WriteLine("That is not an option so its wrong, press enter to continue");
     }
     Console.ReadLine();
 
@@ -136,7 +152,12 @@ else if (answerLang == "A")
 {
     Console.WriteLine("Wrong answer, its None of them, no points, press enter to continue");
 }
-    Console.ReadLine();
+
+else
+    {
+        Console.WriteLine("That is not an option so its wrong, press enter to continue");
+    }
+Console.ReadLine();
 
 Console.WriteLine("Question nr.5");
     Console.WriteLine("Which app has the most total users?");
@@ -168,7 +189,12 @@ else if (answerUser == "A")
 {
     Console.WriteLine("Wrong answer, its C = Instagram, no points, press enter to continue");
 }
-    Console.ReadLine();
+
+else
+    {
+        Console.WriteLine("That is not an option so its wrong, press enter to continue");
+    }
+Console.ReadLine();
 
 Console.WriteLine($"You did it, you did all the questions, so here are your scores: {point}/5");
 Console.ReadLine();
